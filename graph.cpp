@@ -3,7 +3,10 @@
 #include <QtGui>
 #include <QObject>
 #include <QInputDialog>
+#include <QFileDialog>
+#include <QMessageBox>
 #include <QDebug>
+#include <QMenu>
 #include "graph.h"
 
 Graph::Graph(QMainWindow *parent) :

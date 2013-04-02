@@ -7,6 +7,7 @@
 #include <QtCore>
 #include <QtSql>
 #include "qcustomplot.h"
+#include "QMainWindow"
 
 
 class Graph : public QMainWindow

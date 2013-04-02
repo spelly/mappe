@@ -50,6 +50,12 @@ MainWindow::MainWindow(QWidget *parent) :
 
 }
 
+MainWindow::~MainWindow()
+{
+}
+
+
+
 void MainWindow::enableBtn()
 {
     addGraph->setEnabled(true);

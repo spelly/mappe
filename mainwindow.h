@@ -5,15 +5,20 @@
 #include <QObject>
 #include <QtGui>
 #include <QtDebug>
+#include <QVBoxLayout>
+#include <QPushButton>
 #include "qcustomplot.h"
-#include "querybuilder.h"
 #include "graph.h"
+#include "querybuilder.h"
+
+
 
 class MainWindow : public QWidget
 {
     Q_OBJECT
 public:
     explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
     QVBoxLayout* mainLayout;
     QHBoxLayout* selectionGroup;
     QHBoxLayout* graph;
